@@ -1,3 +1,7 @@
+# Created by Mert Demirezen 
+# Copyright © 2019 Mert Demirezen. All rights reserved.
+
+
 from random import randint as rnd
 
 class game:
