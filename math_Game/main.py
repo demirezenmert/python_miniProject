@@ -17,16 +17,21 @@ def menu():
     
     ''')
 
-    level = input(">> ")
+    try :
+        level = int(input(">>"))
+    except ValueError:
+        print('Oops! That was no valid number. Try Again...')
+
 
     if level == 1 :
-        pass
+        gm.gameBegin(1,6)
     elif level == 2 :
-        pass
+        gm.gameBegin(6,12)
+        
     elif level == 3 :
-        pass
+        gm.gameBegin(12,25)
     elif level == 4 :
-        pass
+        gm.gameBegin(25,100)
     else :
         print('QUITING.....')
         exit(0)
@@ -39,3 +44,4 @@ if __name__ == "__main__":
    print('-'*50,'\n')
    print('\t\t ...Welcome...') 
    print('-'*50,'\n')
+   menu()
