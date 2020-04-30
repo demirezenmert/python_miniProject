@@ -110,4 +110,4 @@ if __name__ == "__main__":
     elif user_choice == 2 :
         calc_time()
     else :
-        print('Oops! That was no valid number. Try Again...')
+        print('Oops! That was no valid number.Press 1 or 2 Try Again...')
